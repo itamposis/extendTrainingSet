@@ -2,7 +2,7 @@
 Perl script that implements the symbol transformations in the training sets using the proposed encodings
 
 ## USAGE 
-'-i <input training file> -o <output training file> -e <encoding> -t <past Observations> -i trainSet.seq -o trainSetExt.seq -e 2 -t 1'
+`-i <input training file> -o <output training file> -e <encoding> -t <past Observations> -i trainSet.seq -o trainSetExt.seq -e 2 -t 1`
 
 ## Encoding Groups
 1. An Encoding with 40 (20 x 2) symbols depending on whether the previous residue is hydrophobic (A, F, H, I, L, M, V, W, Y) or non-hydrophobic (C, D, E, G, K, N, P, Q, R, S, T). (Encoding 1).
